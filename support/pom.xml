@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <groupId>top.bitplanet.devops</groupId>
+    <artifactId>support</artifactId>
+    <version>1.0.0.RELEASE</version>
+    <modelVersion>4.0.0</modelVersion>
+    <packaging>pom</packaging>
+    <properties>
+        <java.version>1.8</java.version>
+        <maven.compiler.source>${java.version}</maven.compiler.source>
+        <maven.compiler.target>${java.version}</maven.compiler.target>
+        <maven.compiler.compilerVersion>${java.version}</maven.compiler.compilerVersion>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <!-- 准生产私服 -->
+        <nexus.ip>20.200.43.145:8081</nexus.ip>
+        <repository.nexus.url>http://${nexus.ip}/nexus/content/groups/public</repository.nexus.url>
+        <releases.nexus.url>http://${nexus.ip}/nexus/content/repositories/releases</releases.nexus.url>
+        <snapshots.nexus.url>http://${nexus.ip}/nexus/content/repositories/snapshots</snapshots.nexus.url>
+    </properties>
+
+    <modules>
+        <module>support-core</module>
+        <module>support-dependencies</module>
+        <module>support-swagger/support-swagger-anno</module>
+        <module>support-swagger/support-swagger-processor</module>
+        <module>support-swagger</module>
+        <module>support-datasource</module>
+        <module>support-mybatisplus</module>
+        <module>support-webmvc</module>
+        <module>support-extentions-seata-datasource</module>
+    </modules>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.22</version>
+            <scope>provided</scope>
+        </dependency>
+        <!-- 测试相关 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <version>2.6.2</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+    <distributionManagement>
+        <repository>
+            <id>nexus-releases</id>
+            <url>${releases.nexus.url}</url>
+        </repository>
+        <snapshotRepository>
+            <id>nexus-snapshots</id>
+            <url>${snapshots.nexus.url}</url>
+        </snapshotRepository>
+    </distributionManagement>
+
+    <build>
+  <!--      <resources>
+            <resource>
+                <directory>src/main/resources</directory>
+                <filtering>true</filtering>
+                <excludes>
+                    <exclude>**/*.jks</exclude>
+                    <exclude>META-INF/service/javax.annotation.processing.Processor</exclude>
+                </excludes>
+            </resource>
+            <resource>
+                <directory>src/main/resources</directory>
+                <filtering>false</filtering>
+                <includes>
+                    <include>**/*.jks</include>
+                    <include>META-INF/service/javax.annotation.processing.Processor</include>
+                </includes>
+            </resource>
+        </resources>-->
+    </build>
+
+</project>

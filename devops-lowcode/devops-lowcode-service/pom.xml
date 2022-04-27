@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>top.bitplanet.devops</groupId>
+        <artifactId>support-dependencies</artifactId>
+        <version>1.0.0.RELEASE</version>
+        <relativePath/>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>devops-lowcode-service</artifactId>
+    <version>2.0</version>
+    <description>低代码生成服务</description>
+
+    <dependencies>
+        <!-- 数据源 & mybatis & mybatis plus -->
+        <dependency>
+            <groupId>top.bitplanet.devops</groupId>
+            <artifactId>support-mybatisplus</artifactId>
+            <version>1.0.0.RELEASE</version>
+        </dependency>
+        <!--web stater-->
+        <dependency>
+            <groupId>top.bitplanet.devops</groupId>
+            <artifactId>support-webmvc</artifactId>
+            <version>1.0.0.RELEASE</version>
+        </dependency>
+        <!--mybatis plus 代码生成插件-->
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-generator</artifactId>
+            <version>3.5.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.velocity</groupId>
+            <artifactId>velocity-engine-core</artifactId>
+            <version>2.1</version>
+        </dependency>
+
+        <!-- api -->
+        <dependency>
+            <groupId>top.bitplanet.devops</groupId>
+            <artifactId>devops-lowcode-api</artifactId>
+            <version>1.0.0.RELEASE</version>
+        </dependency>
+
+        <dependency>
+            <groupId>top.bitplanet.devops</groupId>
+            <artifactId>devops-uaa-api</artifactId>
+            <version>1.0.0.RELEASE</version>
+        </dependency>
+
+        <dependency>
+            <groupId>top.bitplanet.devops</groupId>
+            <artifactId>support-extentions-seata-datasource</artifactId>
+            <version>1.0.0.RELEASE</version>
+        </dependency>
+
+
+    </dependencies>
+
+</project>

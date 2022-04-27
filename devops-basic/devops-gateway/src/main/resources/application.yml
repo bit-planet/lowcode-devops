@@ -1,0 +1,15 @@
+spring:
+  cloud:
+    gateway:
+      enabled: true
+      discovery:
+        locator:
+          enabled: true # 开启动态路由
+          lower-case-service-id: true
+          # 自定义路由例子 ：
+      routes:
+          - id: lowcode-service-oss
+            uri: lb://lowcode
+            predicates:
+              - Path=/oss/**
+

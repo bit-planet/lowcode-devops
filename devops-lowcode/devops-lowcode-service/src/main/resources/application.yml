@@ -1,0 +1,19 @@
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+spring:
+  jackson:
+    default-property-inclusion: non_null
+
+
+logging:
+  config: classpath:log4j2-spring.xml
+  level:
+    cn.jay.repository: trace
+
+
+
+
+#  mvc:
+#    static-path-pattern: /oss/**

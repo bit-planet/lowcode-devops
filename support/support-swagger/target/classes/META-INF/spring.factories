@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  top.bitplanet.devops.support.swagger.TansunSwagger3Config,\
+  top.bitplanet.devops.support.swagger.MavenProjectInfoProperties

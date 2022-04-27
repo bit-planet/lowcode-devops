@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--日志级别以及优先级排序: OFF > FATAL > ERROR > WARN > INFO > DEBUG > TRACE > ALL -->
+<!-- status log4j2内部日志级别 -->
+<configuration status="INFO">
+    <!-- 全局参数 -->
+    <Properties>
+        <Property name="pattern">%d{yyyy-MM-dd HH:mm:ss.SSS} %highlight{%-5level} [%t] %highlight{%c{3.3.1}.%M(%L)}: %msg%n</Property>
+        <Property name="logsBaseDir">logs</Property>
+        <Property name="displayName">@artifactId@</Property>
+    </Properties>
+    <Appenders>
+        <Console name="console" target="SYSTEM_OUT" follow="true">
+            <PatternLayout>
+                <pattern>${pattern}</pattern>
+            </PatternLayout>
+        </Console>
+        <!-- 文件 每次运行程序会自动清空，由append属性决定 -->
+        <File name="error" fileName="${logsBaseDir}/${displayName}_error.log" append="false">
+            <!-- 指定error 级别的日志 -->
+            <ThresholdFilter level="ERROR" onMatch="ACCEPT"
+                             onMismatch="DENY" />
+            <PatternLayout>
+                <pattern>${pattern}</pattern>
+            </PatternLayout>
+        </File>
+        <!-- 滚动文件 -->
+        <RollingFile name="rollingFile" fileName="${logsBaseDir}/${displayName}.log"
+                     filePattern="${logsBaseDir}/${displayName}_%d{yyyy-MM-dd}_%i.log">
+            <PatternLayout>
+                <pattern>${pattern}</pattern>
+            </PatternLayout>
+            <Policies>
+                <!-- 满足按天 或 超过100MB 切分日志文件 -->
+                <TimeBasedTriggeringPolicy interval="1"/>
+                <SizeBasedTriggeringPolicy size="100 MB"/>
+            </Policies>
+            <!-- _%i 计数器最大10，超过覆盖最后一个日志文件 -->
+            <DefaultRolloverStrategy max="10"/>
+        </RollingFile>
+    </Appenders>
+    <Loggers>
+        <!-- <Logger name="org.apache.catalina.util.LifecycleBase" level="ERROR"
+            /> <Logger name="org.apache.coyote.http11.Http11NioProtocol" level="WARN"
+            /> <Logger name="org.apache.tomcat.util.net.NioSelectorPool" level="WARN"
+            /> -->
+        <Logger name="org.springframework" level="WARN" />
+        <Logger name="top.bitplanet" level="DEBUG" />
+        <Logger name="com.alibaba.cloud.sentinel" level="DEBUG" />
+        <Root level="INFO">
+            <AppenderRef ref="console"></AppenderRef>
+            <AppenderRef ref="error"></AppenderRef>
+            <AppenderRef ref="rollingFile"></AppenderRef>
+        </Root>
+    </Loggers>
+</configuration>

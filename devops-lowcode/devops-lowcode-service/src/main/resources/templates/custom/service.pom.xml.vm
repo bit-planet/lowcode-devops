@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>top.bitplanet.devops</groupId>
+        <artifactId>support-dependencies</artifactId>
+        <version>1.0.0.RELEASE</version>
+        <relativePath />
+    </parent>
+    <groupId>${projectMetaData.companyName}.${projectMetaData.productName}</groupId>
+    <artifactId>${projectMetaData.productName}-${projectMetaData.moduleHyphen}-service</artifactId>
+    <version>${projectMetaData.version}</version>
+    <description>${projectMetaData.description}</description>
+
+    <dependencies>
+
+        <!-- 数据源 & mybatis & mybatis plus -->
+        <dependency>
+            <groupId>top.bitplanet.devops</groupId>
+            <artifactId>support-mybatisplus</artifactId>
+            <version>1.0.0.RELEASE</version>
+        </dependency>
+        <!--web stater-->
+        <dependency>
+            <groupId>top.bitplanet.devops</groupId>
+            <artifactId>support-webmvc</artifactId>
+            <version>1.0.0.RELEASE</version>
+        </dependency>
+        <!-- API -->
+        <dependency>
+            <groupId>${projectMetaData.companyName}.${projectMetaData.productName}</groupId>
+            <artifactId>${projectMetaData.productName}-${projectMetaData.moduleHyphen}-api</artifactId>
+            <version>${projectMetaData.version}</version>
+        </dependency>
+        <!-- 分布式事务扩展 -->
+        <dependency>
+            <groupId>top.bitplanet.devops</groupId>
+            <artifactId>support-extentions-seata-datasource</artifactId>
+            <version>1.0.0.RELEASE</version>
+        </dependency>
+
+    </dependencies>
+
+
+</project>

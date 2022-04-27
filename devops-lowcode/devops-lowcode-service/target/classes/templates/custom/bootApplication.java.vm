@@ -1,0 +1,15 @@
+package ${package.Parent};
+
+import top.bitplanet.devops.support.swagger.TyEnableOpenApi;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+@TyEnableOpenApi(enable = true)
+public class ${applicationName} {
+
+    public static void main(String[] args) {
+        SpringApplication.run(${applicationName}.class,args);
+    }
+
+}

@@ -1,0 +1,100 @@
+2022-04-27 14:55:27.027 [32mINFO [m [background-preinit] [32morg.hib.v.i.u.Version.<clinit>(21)[m: HV000001: Hibernate Validator 6.2.0.Final
+2022-04-27 14:55:27.675 [32mINFO [m [main] [32mcom.ali.n.c.c.i.LocalConfigInfoProcessor.<clinit>(212)[m: LOCAL_SNAPSHOT_PATH:/Users/neo/nacos/config
+2022-04-27 14:55:27.710 [32mINFO [m [main] [32mcom.ali.n.c.c.i.Limiter.<clinit>(54)[m: limitTime:5.0
+2022-04-27 14:55:27.982 [32mINFO [m [main] [32mcom.ali.n.c.c.u.JvmUtil.<clinit>(49)[m: isMultiInstance:false
+2022-04-27 14:55:28.554 [33mWARN [m [main] [33mcom.ali.c.n.c.NacosPropertySourceBuilder.loadNacosData(87)[m: Ignore the empty nacos configuration and get it based on dataId[lowcode] & group[DEFAULT_GROUP]
+2022-04-27 14:55:28.688 [33mWARN [m [main] [33mcom.ali.c.n.c.NacosPropertySourceBuilder.loadNacosData(87)[m: Ignore the empty nacos configuration and get it based on dataId[lowcode.properties] & group[DEFAULT_GROUP]
+2022-04-27 14:55:28.708 [32mINFO [m [main] [32mtop.bit.d.l.LowcodeServiceApplication.logStartupProfileInfo(635)[m: No active profile set, falling back to default profiles: default
+2022-04-27 14:55:29.467 [32mINFO [m [main] [32mio.sea.s.b.a.SeataAutoConfiguration.globalTransactionScanner(53)[m: Automatically configure Seata
+2022-04-27 14:55:29.471 [32mINFO [m [main] [32mio.sea.c.FileConfiguration.<init>(108)[m: The file name of the operation is registry
+2022-04-27 14:55:29.495 [32mINFO [m [main] [32mio.sea.c.ConfigurationFactory.load(69)[m: load Configuration:FileConfiguration$$EnhancerByCGLIB$$862af1eb
+2022-04-27 14:55:29.651 [32mINFO [m [main] [32mcom.ali.n.c.c.i.ClientWorker.addCacheDataIfAbsent(239)[m: [fixed-139.159.134.189_8848] [subscribe] seataServer.properties+SEATA_GROUP
+2022-04-27 14:55:29.652 [32mINFO [m [main] [32mcom.ali.n.c.c.i.CacheData.addListener(93)[m: [fixed-139.159.134.189_8848] [add-listener] ok, tenant=, dataId=seataServer.properties, group=SEATA_GROUP, cnt=1
+2022-04-27 14:55:29.701 [32mINFO [m [main] [32mio.sea.s.a.GlobalTransactionScanner.initClient(189)[m: Initializing Global Transaction Clients ... 
+2022-04-27 14:55:29.918 [32mINFO [m [main] [32mio.sea.c.r.n.NettyClientBootstrap.start(147)[m: NettyClientBootstrap has started
+2022-04-27 14:55:29.918 [32mINFO [m [main] [32mio.sea.s.a.GlobalTransactionScanner.initClient(197)[m: Transaction Manager Client is initialized. applicationId[lowcode] txServiceGroup[default_tx_group]
+2022-04-27 14:55:29.924 [32mINFO [m [main] [32mio.sea.r.d.AsyncWorker.<init>(71)[m: Async Commit Buffer Limit: 10000
+2022-04-27 14:55:29.924 [32mINFO [m [main] [32mio.sea.r.d.x.ResourceManagerXA.init(40)[m: ResourceManagerXA init ...
+2022-04-27 14:55:29.928 [32mINFO [m [main] [32mio.sea.c.r.n.NettyClientBootstrap.start(147)[m: NettyClientBootstrap has started
+2022-04-27 14:55:29.928 [32mINFO [m [main] [32mio.sea.s.a.GlobalTransactionScanner.initClient(202)[m: Resource Manager is initialized. applicationId[lowcode] txServiceGroup[default_tx_group]
+2022-04-27 14:55:29.928 [32mINFO [m [main] [32mio.sea.s.a.GlobalTransactionScanner.initClient(206)[m: Global Transaction Clients are initialized. 
+2022-04-27 14:55:30.275 [32mINFO [m [main] [32morg.apa.c.h.Http11NioProtocol.log(173)[m: Initializing ProtocolHandler ["http-nio-9000"]
+2022-04-27 14:55:30.275 [32mINFO [m [main] [32morg.apa.c.c.StandardService.log(173)[m: Starting service [Tomcat]
+2022-04-27 14:55:30.275 [32mINFO [m [main] [32morg.apa.c.c.StandardEngine.log(173)[m: Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-04-27 14:55:30.346 [32mINFO [m [main] [32morg.apa.c.c.C.[.[.[/lowcode].log(173)[m: Initializing Spring embedded WebApplicationContext
+2022-04-27 14:55:30.472 [32mINFO [m [main] [32mio.sea.s.a.d.SeataAutoDataSourceProxyCreator.getAdvicesAndAdvisorsForBean(47)[m: Auto proxy of [myDataSource]
+2022-04-27 14:55:30.522 [32mINFO [m [main] [32mcom.ali.d.p.DruidDataSource.init(998)[m: {dataSource-1} inited
+2022-04-27 14:55:31.890 [32mINFO [m [main] [32mcom.ali.n.c.c.i.ClientWorker.addCacheDataIfAbsent(239)[m: [fixed-139.159.134.189_8848] [subscribe] service.vgroupMapping.default_tx_group+SEATA_GROUP
+2022-04-27 14:55:31.890 [32mINFO [m [main] [32mcom.ali.n.c.c.i.CacheData.addListener(93)[m: [fixed-139.159.134.189_8848] [add-listener] ok, tenant=, dataId=service.vgroupMapping.default_tx_group, group=SEATA_GROUP, cnt=1
+2022-04-27 14:55:31.893 [32mINFO [m [main] [32mcom.ali.n.c.naming.call(65)[m: initializer namespace from System Property :null
+2022-04-27 14:55:31.894 [32mINFO [m [main] [32mcom.ali.n.c.naming.call(74)[m: initializer namespace from System Environment :null
+2022-04-27 14:55:31.894 [32mINFO [m [main] [32mcom.ali.n.c.naming.call(84)[m: initializer namespace from System Property :null
+2022-04-27 14:55:32.392 [1;31mERROR[m [main] [1;31mio.sea.c.r.n.NettyClientChannelManager.reconnect(183)[m: no available service found in cluster 'default', please make sure registry config correct and keep your seata server running
+2022-04-27 14:55:32.786 [32mINFO [m [main] [32mcom.ali.n.c.c.i.ClientWorker.addCacheDataIfAbsent(239)[m: [fixed-139.159.134.189_8848] [subscribe] service.disableGlobalTransaction+SEATA_GROUP
+2022-04-27 14:55:32.787 [32mINFO [m [main] [32mcom.ali.n.c.c.i.CacheData.addListener(93)[m: [fixed-139.159.134.189_8848] [add-listener] ok, tenant=, dataId=service.disableGlobalTransaction, group=SEATA_GROUP, cnt=1
+2022-04-27 14:55:32.787 [32mINFO [m [main] [32mcom.ali.n.c.c.i.CacheData.addListener(93)[m: [fixed-139.159.134.189_8848] [add-listener] ok, tenant=, dataId=service.disableGlobalTransaction, group=SEATA_GROUP, cnt=2
+2022-04-27 14:55:32.787 [32mINFO [m [main] [32mio.sea.s.a.GlobalTransactionScanner.wrapIfNecessary(273)[m: Bean[top.bitplanet.devops.lowcode.controller.GenCodeController] with name [genCodeController] would use interceptor [io.seata.spring.annotation.GlobalTransactionalInterceptor]
+2022-04-27 14:55:32.956 [32mINFO [m [main] [32mcom.ali.c.s.SentinelWebAutoConfiguration.addInterceptors(80)[m: [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+2022-04-27 14:55:33.354 [32mINFO [m [main] [32mcom.ali.n.c.c.i.ClientWorker.addCacheDataIfAbsent(239)[m: [fixed-139.159.134.189_8848] [subscribe] lowcode-flow-rules+SENTINEL_GROUP
+2022-04-27 14:55:33.354 [32mINFO [m [main] [32mcom.ali.n.c.c.i.CacheData.addListener(93)[m: [fixed-139.159.134.189_8848] [add-listener] ok, tenant=, dataId=lowcode-flow-rules, group=SENTINEL_GROUP, cnt=1
+2022-04-27 14:55:33.516 [32mINFO [m [main] [32mcom.ali.n.c.naming.call(65)[m: initializer namespace from System Property :null
+2022-04-27 14:55:33.516 [32mINFO [m [main] [32mcom.ali.n.c.naming.call(74)[m: initializer namespace from System Environment :null
+2022-04-27 14:55:33.517 [32mINFO [m [main] [32mcom.ali.n.c.naming.call(84)[m: initializer namespace from System Property :null
+2022-04-27 14:55:33.626 [32mINFO [m [main] [32morg.apa.c.h.Http11NioProtocol.log(173)[m: Starting ProtocolHandler ["http-nio-9000"]
+2022-04-27 14:55:33.641 [32mINFO [m [main] [32mcom.ali.n.c.naming.addBeatInfo(81)[m: [BEAT] adding beat: BeatInfo{port=9000, ip='172.20.10.10', weight=1.0, serviceName='DEFAULT_GROUP@@lowcode', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false} to beat map.
+2022-04-27 14:55:33.642 [32mINFO [m [main] [32mcom.ali.n.c.naming.registerService(230)[m: [REGISTER-SERVICE] public registering service DEFAULT_GROUP@@lowcode with instance: Instance{instanceId='null', ip='172.20.10.10', port=9000, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={preserved.register.source=SPRING_CLOUD}}
+2022-04-27 14:55:33.802 [32mINFO [m [main] [32mcom.ali.c.n.r.NacosServiceRegistry.register(75)[m: nacos registry, DEFAULT_GROUP lowcode 172.20.10.10:9000 register finished
+2022-04-27 14:55:34.065 [32mINFO [m [main] [32mtop.bit.d.l.LowcodeServiceApplication.logStarted(61)[m: Started LowcodeServiceApplication in 7.526 seconds (JVM running for 8.09)
+2022-04-27 14:55:34.067 [32mINFO [m [main] [32mcom.ali.n.c.c.i.ClientWorker.addCacheDataIfAbsent(239)[m: [fixed-139.159.134.189_8848] [subscribe] common_sentinel.yml+COMMON_GROUP
+2022-04-27 14:55:34.067 [32mINFO [m [main] [32mcom.ali.n.c.c.i.CacheData.addListener(93)[m: [fixed-139.159.134.189_8848] [add-listener] ok, tenant=, dataId=common_sentinel.yml, group=COMMON_GROUP, cnt=1
+2022-04-27 14:55:34.067 [32mINFO [m [main] [32mcom.ali.n.c.c.i.ClientWorker.addCacheDataIfAbsent(239)[m: [fixed-139.159.134.189_8848] [subscribe] common_seata.yml+COMMON_GROUP
+2022-04-27 14:55:34.067 [32mINFO [m [main] [32mcom.ali.n.c.c.i.CacheData.addListener(93)[m: [fixed-139.159.134.189_8848] [add-listener] ok, tenant=, dataId=common_seata.yml, group=COMMON_GROUP, cnt=1
+2022-04-27 14:55:34.067 [32mINFO [m [main] [32mcom.ali.n.c.c.i.ClientWorker.addCacheDataIfAbsent(239)[m: [fixed-139.159.134.189_8848] [subscribe] common_jdbc_postgres.yml+COMMON_GROUP
+2022-04-27 14:55:34.067 [32mINFO [m [main] [32mcom.ali.n.c.c.i.CacheData.addListener(93)[m: [fixed-139.159.134.189_8848] [add-listener] ok, tenant=, dataId=common_jdbc_postgres.yml, group=COMMON_GROUP, cnt=1
+2022-04-27 14:55:34.067 [32mINFO [m [main] [32mcom.ali.n.c.c.i.ClientWorker.addCacheDataIfAbsent(239)[m: [fixed-139.159.134.189_8848] [subscribe] common_spring.yml+COMMON_GROUP
+2022-04-27 14:55:34.067 [32mINFO [m [main] [32mcom.ali.n.c.c.i.CacheData.addListener(93)[m: [fixed-139.159.134.189_8848] [add-listener] ok, tenant=, dataId=common_spring.yml, group=COMMON_GROUP, cnt=1
+2022-04-27 14:55:34.067 [32mINFO [m [main] [32mcom.ali.n.c.c.i.ClientWorker.addCacheDataIfAbsent(239)[m: [fixed-139.159.134.189_8848] [subscribe] lowcode.properties+DEFAULT_GROUP
+2022-04-27 14:55:34.068 [32mINFO [m [main] [32mcom.ali.n.c.c.i.CacheData.addListener(93)[m: [fixed-139.159.134.189_8848] [add-listener] ok, tenant=, dataId=lowcode.properties, group=DEFAULT_GROUP, cnt=1
+2022-04-27 14:55:34.068 [32mINFO [m [main] [32mcom.ali.n.c.c.i.ClientWorker.addCacheDataIfAbsent(239)[m: [fixed-139.159.134.189_8848] [subscribe] common_mybaitsplus.yml+COMMON_GROUP
+2022-04-27 14:55:34.068 [32mINFO [m [main] [32mcom.ali.n.c.c.i.CacheData.addListener(93)[m: [fixed-139.159.134.189_8848] [add-listener] ok, tenant=, dataId=common_mybaitsplus.yml, group=COMMON_GROUP, cnt=1
+2022-04-27 14:55:34.068 [32mINFO [m [main] [32mcom.ali.n.c.c.i.ClientWorker.addCacheDataIfAbsent(239)[m: [fixed-139.159.134.189_8848] [subscribe] lowcode+DEFAULT_GROUP
+2022-04-27 14:55:34.068 [32mINFO [m [main] [32mcom.ali.n.c.c.i.CacheData.addListener(93)[m: [fixed-139.159.134.189_8848] [add-listener] ok, tenant=, dataId=lowcode, group=DEFAULT_GROUP, cnt=1
+2022-04-27 14:55:34.777 [32mINFO [m [com.alibaba.nacos.client.naming.updater] [32mcom.ali.n.c.naming.processServiceJson(228)[m: new ips(1) service: DEFAULT_GROUP@@lowcode@@DEFAULT -> [{"instanceId":"172.20.10.10#9000#DEFAULT#DEFAULT_GROUP@@lowcode","ip":"172.20.10.10","port":9000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@lowcode","metadata":{"preserved.register.source":"SPRING_CLOUD"},"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]
+2022-04-27 14:55:34.783 [32mINFO [m [com.alibaba.nacos.client.naming.updater] [32mcom.ali.n.c.naming.processServiceJson(267)[m: current ips:(1) service: DEFAULT_GROUP@@lowcode@@DEFAULT -> [{"instanceId":"172.20.10.10#9000#DEFAULT#DEFAULT_GROUP@@lowcode","ip":"172.20.10.10","port":9000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@lowcode","metadata":{"preserved.register.source":"SPRING_CLOUD"},"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]
+2022-04-27 14:56:29.920 [1;31mERROR[m [timeoutChecker_1_1] [1;31mio.sea.c.r.n.NettyClientChannelManager.reconnect(183)[m: no available service found in cluster 'default', please make sure registry config correct and keep your seata server running
+2022-04-27 14:56:29.930 [1;31mERROR[m [timeoutChecker_2_1] [1;31mio.sea.c.r.n.NettyClientChannelManager.reconnect(183)[m: no available service found in cluster 'default', please make sure registry config correct and keep your seata server running
+2022-04-27 14:56:39.921 [1;31mERROR[m [timeoutChecker_1_1] [1;31mio.sea.c.r.n.NettyClientChannelManager.reconnect(183)[m: no available service found in cluster 'default', please make sure registry config correct and keep your seata server running
+2022-04-27 14:56:39.934 [1;31mERROR[m [timeoutChecker_2_1] [1;31mio.sea.c.r.n.NettyClientChannelManager.reconnect(183)[m: no available service found in cluster 'default', please make sure registry config correct and keep your seata server running
+2022-04-27 14:56:49.920 [1;31mERROR[m [timeoutChecker_1_1] [1;31mio.sea.c.r.n.NettyClientChannelManager.reconnect(183)[m: no available service found in cluster 'default', please make sure registry config correct and keep your seata server running
+2022-04-27 14:56:49.933 [1;31mERROR[m [timeoutChecker_2_1] [1;31mio.sea.c.r.n.NettyClientChannelManager.reconnect(183)[m: no available service found in cluster 'default', please make sure registry config correct and keep your seata server running
+2022-04-27 14:56:59.921 [1;31mERROR[m [timeoutChecker_1_1] [1;31mio.sea.c.r.n.NettyClientChannelManager.reconnect(183)[m: no available service found in cluster 'default', please make sure registry config correct and keep your seata server running
+2022-04-27 14:56:59.934 [1;31mERROR[m [timeoutChecker_2_1] [1;31mio.sea.c.r.n.NettyClientChannelManager.reconnect(183)[m: no available service found in cluster 'default', please make sure registry config correct and keep your seata server running
+2022-04-27 14:57:04.666 [33mWARN [m [Thread-1] [33mcom.ali.n.c.h.HttpClientBeanHolder.shutdown(108)[m: [HttpClientBeanHolder] Start destroying common HttpClient
+2022-04-27 14:57:04.667 [33mWARN [m [Thread-16] [33mcom.ali.n.c.n.NotifyCenter.shutdown(145)[m: [NotifyCenter] Start destroying Publisher
+2022-04-27 14:57:04.668 [33mWARN [m [Thread-16] [33mcom.ali.n.c.n.NotifyCenter.shutdown(162)[m: [NotifyCenter] Destruction of the end
+2022-04-27 14:57:04.668 [33mWARN [m [Thread-1] [33mcom.ali.n.c.h.HttpClientBeanHolder.shutdown(114)[m: [HttpClientBeanHolder] Destruction of the end
+2022-04-27 14:57:04.693 [32mINFO [m [SpringContextShutdownHook] [32mcom.ali.c.n.r.NacosServiceRegistry.deregister(90)[m: De-registering from Nacos Server now...
+2022-04-27 14:57:04.693 [32mINFO [m [SpringContextShutdownHook] [32mcom.ali.n.c.naming.removeBeatInfo(101)[m: [BEAT] removing beat: DEFAULT_GROUP@@lowcode:172.20.10.10:9000 from beat map.
+2022-04-27 14:57:04.693 [32mINFO [m [SpringContextShutdownHook] [32mcom.ali.n.c.naming.deregisterService(260)[m: [DEREGISTER-SERVICE] public deregistering service DEFAULT_GROUP@@lowcode with instance: Instance{instanceId='null', ip='172.20.10.10', port=9000, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+2022-04-27 14:57:04.803 [32mINFO [m [SpringContextShutdownHook] [32mcom.ali.c.n.r.NacosServiceRegistry.deregister(110)[m: De-registration finished.
+2022-04-27 14:57:04.803 [32mINFO [m [SpringContextShutdownHook] [32mcom.ali.n.c.naming.shutdown(147)[m: com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+2022-04-27 14:57:05.929 [32mINFO [m [com.alibaba.nacos.client.naming.updater] [32mcom.ali.n.c.naming.processServiceJson(234)[m: removed ips(1) service: DEFAULT_GROUP@@lowcode@@DEFAULT -> [{"instanceId":"172.20.10.10#9000#DEFAULT#DEFAULT_GROUP@@lowcode","ip":"172.20.10.10","port":9000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@lowcode","metadata":{"preserved.register.source":"SPRING_CLOUD"},"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]
+2022-04-27 14:57:05.931 [32mINFO [m [com.alibaba.nacos.client.naming.updater] [32mcom.ali.n.c.naming.processServiceJson(267)[m: current ips:(0) service: DEFAULT_GROUP@@lowcode@@DEFAULT -> []
+2022-04-27 14:57:06.667 [32mINFO [m [SpringContextShutdownHook] [32mcom.ali.n.c.naming.shutdown(149)[m: com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
+2022-04-27 14:57:06.667 [32mINFO [m [SpringContextShutdownHook] [32mcom.ali.n.c.naming.shutdown(409)[m: com.alibaba.nacos.client.naming.core.HostReactor do shutdown begin
+2022-04-27 14:57:08.054 [32mINFO [m [SpringContextShutdownHook] [32mcom.ali.n.c.naming.shutdown(121)[m: com.alibaba.nacos.client.naming.core.PushReceiver do shutdown begin
+2022-04-27 14:57:09.916 [1;31mERROR[m [timeoutChecker_1_1] [1;31mio.sea.c.r.n.NettyClientChannelManager.reconnect(183)[m: no available service found in cluster 'default', please make sure registry config correct and keep your seata server running
+2022-04-27 14:57:09.930 [1;31mERROR[m [timeoutChecker_2_1] [1;31mio.sea.c.r.n.NettyClientChannelManager.reconnect(183)[m: no available service found in cluster 'default', please make sure registry config correct and keep your seata server running
+2022-04-27 14:57:11.067 [32mINFO [m [SpringContextShutdownHook] [32mcom.ali.n.c.naming.shutdown(125)[m: com.alibaba.nacos.client.naming.core.PushReceiver do shutdown stop
+2022-04-27 14:57:11.068 [32mINFO [m [SpringContextShutdownHook] [32mcom.ali.n.c.naming.shutdown(132)[m: com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2022-04-27 14:57:11.069 [32mINFO [m [SpringContextShutdownHook] [32mcom.ali.n.c.naming.shutdown(134)[m: com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2022-04-27 14:57:11.069 [32mINFO [m [SpringContextShutdownHook] [32mcom.ali.n.c.naming.shutdown(414)[m: com.alibaba.nacos.client.naming.core.HostReactor do shutdown stop
+2022-04-27 14:57:11.069 [32mINFO [m [SpringContextShutdownHook] [32mcom.ali.n.c.naming.shutdown(719)[m: com.alibaba.nacos.client.naming.net.NamingProxy do shutdown begin
+2022-04-27 14:57:11.071 [33mWARN [m [SpringContextShutdownHook] [33mcom.ali.n.c.naming.shutdown(72)[m: [NamingHttpClientManager] Start destroying NacosRestTemplate
+2022-04-27 14:57:11.071 [33mWARN [m [SpringContextShutdownHook] [33mcom.ali.n.c.naming.shutdown(79)[m: [NamingHttpClientManager] Destruction of the end
+2022-04-27 14:57:11.071 [32mINFO [m [SpringContextShutdownHook] [32mcom.ali.n.c.i.CredentialWatcher.stop(105)[m: [null] CredentialWatcher is stopped
+2022-04-27 14:57:11.071 [32mINFO [m [SpringContextShutdownHook] [32mcom.ali.n.c.i.CredentialService.free(98)[m: [null] CredentialService is freed
+2022-04-27 14:57:11.072 [32mINFO [m [SpringContextShutdownHook] [32mcom.ali.n.c.naming.shutdown(723)[m: com.alibaba.nacos.client.naming.net.NamingProxy do shutdown stop
+2022-04-27 14:57:11.072 [33mWARN [m [SpringContextShutdownHook] [33morg.spr.b.f.s.DisposableBeanAdapter.invokeCustomDestroyMethod(328)[m: Custom destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
+2022-04-27 14:57:11.082 [32mINFO [m [SpringContextShutdownHook] [32mcom.ali.d.p.DruidDataSource.close(2071)[m: {dataSource-1} closing ...
+2022-04-27 14:57:11.087 [32mINFO [m [SpringContextShutdownHook] [32mcom.ali.d.p.DruidDataSource.close(2144)[m: {dataSource-1} closed

@@ -1,0 +1,30 @@
+server:
+  port: 8090 # TODO 手动指定
+  servlet:
+    context-path: /${projectMetaData.moduleFolder}
+spring:
+  application:
+    name: ${projectMetaData.moduleHyphen}  # 保持url简洁，/模块名/** 例： aaa-bbb 对应 /aaa/bbb
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 139.159.134.189:8848 # TODO 手动指定
+      config:
+        #set($serverAddr = '${spring.cloud.nacos.discovery.server-addr}')
+        server-addr: $serverAddr
+        shared-configs:
+          - data-id: common_spring.yml
+            group: COMMON_GROUP
+            refresh: true
+          - data-id: common_jdbc_postgres.yml
+            group: COMMON_GROUP
+            refresh: true
+          - data-id: common_mybaitsplus.yml
+            group: COMMON_GROUP
+            refresh: true
+          - data-id: common_sentinel.yml
+            group: COMMON_GROUP
+            refresh: true
+          - data-id: common_seata.yml
+            group: COMMON_GROUP
+            refresh: true

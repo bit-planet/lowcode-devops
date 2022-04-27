@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="top.bitplanet.devops.lowcode.wiki.mapper.WikiClassificationMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="top.bitplanet.devops.lowcode.wiki.entity.WikiClassification">
+        <result column="id" property="id" />
+        <result column="create_user_id" property="createUserId" />
+        <result column="update_user_id" property="updateUserId" />
+        <result column="create_time" property="createTime" />
+        <result column="update_time" property="updateTime" />
+        <result column="delete_flag" property="deleteFlag" />
+        <result column="parent_id" property="parentId" />
+        <result column="classification_name" property="classificationName" />
+        <result column="wiki_sum" property="wikiSum" />
+        <result column="introduction" property="introduction" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id,
+        create_user_id,
+        update_user_id,
+        create_time,
+        update_time,
+        delete_flag,
+        parent_id, classification_name, wiki_sum, introduction
+    </sql>
+
+</mapper>

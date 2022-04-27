@@ -1,0 +1,42 @@
+server:
+  port: 80
+spring:
+  application:
+    name: @artifactId@
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 139.159.134.189:8848
+      config:
+        server-addr: ${spring.cloud.nacos.discovery.server-addr}
+        shared-configs[0]:
+          data-id: common_jdbc_postgres.yml
+          group: COMMON_GROUP
+          refresh: true
+        shared-configs[1]:
+          data-id: common_mybaitsplus.yml
+          group: COMMON_GROUP
+          refresh: true
+#        ext-config[1]:
+#          data-id: common_sentinel.yml
+#          group: COMMON_GROUP
+#          refresh: true
+#        ext-config[2]:
+#          data-id: common_rabbitmq.yml
+#          group: COMMON_GROUP
+#          refresh: true
+#        ext-config[3]:
+#          data-id: common_redis.yml
+#          group: COMMON_GROUP
+#          refresh: true
+#        ext-config[4]:
+#          data-id: common_opentracing.yml
+#          group: COMMON_GROUP
+#          refresh: true
+#        ext-config[5]:
+#          data-id: common_eureka.yml
+#          group: COMMON_GROUP
+#          refresh: true
+#        file-extension: yml
+#        group: FRONT_END_GROUP
+

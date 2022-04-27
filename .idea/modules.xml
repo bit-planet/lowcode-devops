@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/bitplanet-devops.iml" filepath="$PROJECT_DIR$/.idea/bitplanet-devops.iml" />
+      <module fileurl="file://$PROJECT_DIR$/devops-basic/devops-gateway/devops-gateway.iml" filepath="$PROJECT_DIR$/devops-basic/devops-gateway/devops-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/devops-lowcode/devops-lowcode.iml" filepath="$PROJECT_DIR$/devops-lowcode/devops-lowcode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/devops-lowcode/devops-lowcode-api/devops-lowcode-api.iml" filepath="$PROJECT_DIR$/devops-lowcode/devops-lowcode-api/devops-lowcode-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/devops-lowcode/devops-lowcode-service/devops-lowcode-service.iml" filepath="$PROJECT_DIR$/devops-lowcode/devops-lowcode-service/devops-lowcode-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/devops-basic/devops-sentinel-dashboard/devops-sentinel-dashboard.iml" filepath="$PROJECT_DIR$/devops-basic/devops-sentinel-dashboard/devops-sentinel-dashboard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/devops-basic/devops-uaa/devops-uaa.iml" filepath="$PROJECT_DIR$/devops-basic/devops-uaa/devops-uaa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/devops-basic/devops-uaa/devops-uaa-api/devops-uaa-api.iml" filepath="$PROJECT_DIR$/devops-basic/devops-uaa/devops-uaa-api/devops-uaa-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/devops-basic/devops-uaa/devops-uaa-service/devops-uaa-service.iml" filepath="$PROJECT_DIR$/devops-basic/devops-uaa/devops-uaa-service/devops-uaa-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/support/support.iml" filepath="$PROJECT_DIR$/support/support.iml" />
+      <module fileurl="file://$PROJECT_DIR$/support/support-core/support-core.iml" filepath="$PROJECT_DIR$/support/support-core/support-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/support/support-datasource/support-datasource.iml" filepath="$PROJECT_DIR$/support/support-datasource/support-datasource.iml" />
+      <module fileurl="file://$PROJECT_DIR$/support/support-dependencies/support-dependencies.iml" filepath="$PROJECT_DIR$/support/support-dependencies/support-dependencies.iml" />
+      <module fileurl="file://$PROJECT_DIR$/support/support-extentions-seata-datasource/support-extentions-seata-datasource.iml" filepath="$PROJECT_DIR$/support/support-extentions-seata-datasource/support-extentions-seata-datasource.iml" />
+      <module fileurl="file://$PROJECT_DIR$/support/support-mybatisplus/support-mybatisplus.iml" filepath="$PROJECT_DIR$/support/support-mybatisplus/support-mybatisplus.iml" />
+      <module fileurl="file://$PROJECT_DIR$/support/support-swagger/support-swagger.iml" filepath="$PROJECT_DIR$/support/support-swagger/support-swagger.iml" />
+      <module fileurl="file://$PROJECT_DIR$/support/support-swagger/support-swagger-anno/support-swagger-anno.iml" filepath="$PROJECT_DIR$/support/support-swagger/support-swagger-anno/support-swagger-anno.iml" />
+      <module fileurl="file://$PROJECT_DIR$/support/support-swagger/support-swagger-processor/support-swagger-processor.iml" filepath="$PROJECT_DIR$/support/support-swagger/support-swagger-processor/support-swagger-processor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/support/support-webmvc/support-webmvc.iml" filepath="$PROJECT_DIR$/support/support-webmvc/support-webmvc.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,73 @@
+2022-04-19 14:37:14.299 [32mINFO [m [background-preinit] [32morg.hib.v.i.u.Version.<clinit>(21)[m: HV000001: Hibernate Validator 6.2.0.Final
+2022-04-19 14:37:14.622 [32mINFO [m [main] [32mcom.ali.n.c.c.i.LocalConfigInfoProcessor.<clinit>(212)[m: LOCAL_SNAPSHOT_PATH:/Users/neo/nacos/config
+2022-04-19 14:37:14.643 [32mINFO [m [main] [32mcom.ali.n.c.c.i.Limiter.<clinit>(54)[m: limitTime:5.0
+2022-04-19 14:37:14.807 [32mINFO [m [main] [32mcom.ali.n.c.c.u.JvmUtil.<clinit>(49)[m: isMultiInstance:false
+2022-04-19 14:37:15.199 [33mWARN [m [main] [33mcom.ali.c.n.c.NacosPropertySourceBuilder.loadNacosData(87)[m: Ignore the empty nacos configuration and get it based on dataId[lowcode] & group[DEFAULT_GROUP]
+2022-04-19 14:37:15.267 [33mWARN [m [main] [33mcom.ali.c.n.c.NacosPropertySourceBuilder.loadNacosData(87)[m: Ignore the empty nacos configuration and get it based on dataId[lowcode.properties] & group[DEFAULT_GROUP]
+2022-04-19 14:37:15.295 [32mINFO [m [main] [32mcom.tan.c.l.w.s.IWikiServiceTest.logStartupProfileInfo(635)[m: No active profile set, falling back to default profiles: default
+2022-04-19 14:37:16.114 [32mINFO [m [main] [32mio.sea.s.b.a.SeataAutoConfiguration.globalTransactionScanner(53)[m: Automatically configure Seata
+2022-04-19 14:37:16.119 [32mINFO [m [main] [32mio.sea.c.FileConfiguration.<init>(108)[m: The file name of the operation is registry
+2022-04-19 14:37:16.158 [32mINFO [m [main] [32mio.sea.c.ConfigurationFactory.load(69)[m: load Configuration:FileConfiguration$$EnhancerByCGLIB$$862af1eb
+2022-04-19 14:37:16.331 [32mINFO [m [main] [32mcom.ali.n.c.c.i.ClientWorker.addCacheDataIfAbsent(239)[m: [fixed-139.159.134.189_8848] [subscribe] seataServer.properties+SEATA_GROUP
+2022-04-19 14:37:16.332 [32mINFO [m [main] [32mcom.ali.n.c.c.i.CacheData.addListener(93)[m: [fixed-139.159.134.189_8848] [add-listener] ok, tenant=, dataId=seataServer.properties, group=SEATA_GROUP, cnt=1
+2022-04-19 14:37:16.395 [32mINFO [m [main] [32mio.sea.s.a.GlobalTransactionScanner.initClient(189)[m: Initializing Global Transaction Clients ... 
+2022-04-19 14:37:16.581 [32mINFO [m [main] [32mio.sea.c.r.n.NettyClientBootstrap.start(147)[m: NettyClientBootstrap has started
+2022-04-19 14:37:16.581 [32mINFO [m [main] [32mio.sea.s.a.GlobalTransactionScanner.initClient(197)[m: Transaction Manager Client is initialized. applicationId[lowcode] txServiceGroup[default_tx_group]
+2022-04-19 14:37:16.590 [32mINFO [m [main] [32mio.sea.r.d.AsyncWorker.<init>(71)[m: Async Commit Buffer Limit: 10000
+2022-04-19 14:37:16.591 [32mINFO [m [main] [32mio.sea.r.d.x.ResourceManagerXA.init(40)[m: ResourceManagerXA init ...
+2022-04-19 14:37:16.596 [32mINFO [m [main] [32mio.sea.c.r.n.NettyClientBootstrap.start(147)[m: NettyClientBootstrap has started
+2022-04-19 14:37:16.596 [32mINFO [m [main] [32mio.sea.s.a.GlobalTransactionScanner.initClient(202)[m: Resource Manager is initialized. applicationId[lowcode] txServiceGroup[default_tx_group]
+2022-04-19 14:37:16.596 [32mINFO [m [main] [32mio.sea.s.a.GlobalTransactionScanner.initClient(206)[m: Global Transaction Clients are initialized. 
+2022-04-19 14:37:17.080 [32mINFO [m [main] [32mio.sea.s.a.d.SeataAutoDataSourceProxyCreator.getAdvicesAndAdvisorsForBean(47)[m: Auto proxy of [myDataSource]
+2022-04-19 14:37:17.137 [32mINFO [m [main] [32mcom.ali.d.p.DruidDataSource.init(998)[m: {dataSource-1} inited
+2022-04-19 14:37:17.989 [32mINFO [m [main] [32mcom.ali.n.c.c.i.ClientWorker.addCacheDataIfAbsent(239)[m: [fixed-139.159.134.189_8848] [subscribe] service.vgroupMapping.default_tx_group+SEATA_GROUP
+2022-04-19 14:37:17.989 [32mINFO [m [main] [32mcom.ali.n.c.c.i.CacheData.addListener(93)[m: [fixed-139.159.134.189_8848] [add-listener] ok, tenant=, dataId=service.vgroupMapping.default_tx_group, group=SEATA_GROUP, cnt=1
+2022-04-19 14:37:17.994 [32mINFO [m [main] [32mcom.ali.n.c.naming.call(65)[m: initializer namespace from System Property :null
+2022-04-19 14:37:17.995 [32mINFO [m [main] [32mcom.ali.n.c.naming.call(74)[m: initializer namespace from System Environment :null
+2022-04-19 14:37:17.995 [32mINFO [m [main] [32mcom.ali.n.c.naming.call(84)[m: initializer namespace from System Property :null
+2022-04-19 14:37:18.274 [1;31mERROR[m [main] [1;31mio.sea.c.r.n.NettyClientChannelManager.reconnect(183)[m: no available service found in cluster 'default', please make sure registry config correct and keep your seata server running
+2022-04-19 14:37:18.774 [32mINFO [m [main] [32mcom.ali.n.c.c.i.ClientWorker.addCacheDataIfAbsent(239)[m: [fixed-139.159.134.189_8848] [subscribe] service.disableGlobalTransaction+SEATA_GROUP
+2022-04-19 14:37:18.774 [32mINFO [m [main] [32mcom.ali.n.c.c.i.CacheData.addListener(93)[m: [fixed-139.159.134.189_8848] [add-listener] ok, tenant=, dataId=service.disableGlobalTransaction, group=SEATA_GROUP, cnt=1
+2022-04-19 14:37:18.775 [32mINFO [m [main] [32mcom.ali.n.c.c.i.CacheData.addListener(93)[m: [fixed-139.159.134.189_8848] [add-listener] ok, tenant=, dataId=service.disableGlobalTransaction, group=SEATA_GROUP, cnt=2
+2022-04-19 14:37:18.775 [32mINFO [m [main] [32mio.sea.s.a.GlobalTransactionScanner.wrapIfNecessary(273)[m: Bean[top.bitplanet.devops.lowcode.controller.GenCodeController] with name [genCodeController] would use interceptor [io.seata.spring.annotation.GlobalTransactionalInterceptor]
+2022-04-19 14:37:19.030 [32mINFO [m [main] [32mcom.ali.c.s.SentinelWebAutoConfiguration.addInterceptors(80)[m: [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+2022-04-19 14:37:19.718 [32mINFO [m [main] [32mcom.ali.n.c.c.i.ClientWorker.addCacheDataIfAbsent(239)[m: [fixed-139.159.134.189_8848] [subscribe] lowcode-flow-rules+SENTINEL_GROUP
+2022-04-19 14:37:19.718 [32mINFO [m [main] [32mcom.ali.n.c.c.i.CacheData.addListener(93)[m: [fixed-139.159.134.189_8848] [add-listener] ok, tenant=, dataId=lowcode-flow-rules, group=SENTINEL_GROUP, cnt=1
+2022-04-19 14:37:19.882 [32mINFO [m [main] [32mcom.ali.n.c.naming.call(65)[m: initializer namespace from System Property :null
+2022-04-19 14:37:19.882 [32mINFO [m [main] [32mcom.ali.n.c.naming.call(74)[m: initializer namespace from System Environment :null
+2022-04-19 14:37:19.882 [32mINFO [m [main] [32mcom.ali.n.c.naming.call(84)[m: initializer namespace from System Property :null
+2022-04-19 14:37:20.276 [32mINFO [m [main] [32mcom.tan.c.l.w.s.IWikiServiceTest.logStarted(61)[m: Started IWikiServiceTest in 6.239 seconds (JVM running for 10.18)
+2022-04-19 14:37:20.277 [32mINFO [m [main] [32mcom.ali.n.c.c.i.ClientWorker.addCacheDataIfAbsent(239)[m: [fixed-139.159.134.189_8848] [subscribe] common_sentinel.yml+COMMON_GROUP
+2022-04-19 14:37:20.278 [32mINFO [m [main] [32mcom.ali.n.c.c.i.CacheData.addListener(93)[m: [fixed-139.159.134.189_8848] [add-listener] ok, tenant=, dataId=common_sentinel.yml, group=COMMON_GROUP, cnt=1
+2022-04-19 14:37:20.278 [32mINFO [m [main] [32mcom.ali.n.c.c.i.ClientWorker.addCacheDataIfAbsent(239)[m: [fixed-139.159.134.189_8848] [subscribe] common_seata.yml+COMMON_GROUP
+2022-04-19 14:37:20.278 [32mINFO [m [main] [32mcom.ali.n.c.c.i.CacheData.addListener(93)[m: [fixed-139.159.134.189_8848] [add-listener] ok, tenant=, dataId=common_seata.yml, group=COMMON_GROUP, cnt=1
+2022-04-19 14:37:20.278 [32mINFO [m [main] [32mcom.ali.n.c.c.i.ClientWorker.addCacheDataIfAbsent(239)[m: [fixed-139.159.134.189_8848] [subscribe] common_jdbc_postgres.yml+COMMON_GROUP
+2022-04-19 14:37:20.278 [32mINFO [m [main] [32mcom.ali.n.c.c.i.CacheData.addListener(93)[m: [fixed-139.159.134.189_8848] [add-listener] ok, tenant=, dataId=common_jdbc_postgres.yml, group=COMMON_GROUP, cnt=1
+2022-04-19 14:37:20.278 [32mINFO [m [main] [32mcom.ali.n.c.c.i.ClientWorker.addCacheDataIfAbsent(239)[m: [fixed-139.159.134.189_8848] [subscribe] common_spring.yml+COMMON_GROUP
+2022-04-19 14:37:20.278 [32mINFO [m [main] [32mcom.ali.n.c.c.i.CacheData.addListener(93)[m: [fixed-139.159.134.189_8848] [add-listener] ok, tenant=, dataId=common_spring.yml, group=COMMON_GROUP, cnt=1
+2022-04-19 14:37:20.278 [32mINFO [m [main] [32mcom.ali.n.c.c.i.ClientWorker.addCacheDataIfAbsent(239)[m: [fixed-139.159.134.189_8848] [subscribe] lowcode.properties+DEFAULT_GROUP
+2022-04-19 14:37:20.278 [32mINFO [m [main] [32mcom.ali.n.c.c.i.CacheData.addListener(93)[m: [fixed-139.159.134.189_8848] [add-listener] ok, tenant=, dataId=lowcode.properties, group=DEFAULT_GROUP, cnt=1
+2022-04-19 14:37:20.278 [32mINFO [m [main] [32mcom.ali.n.c.c.i.ClientWorker.addCacheDataIfAbsent(239)[m: [fixed-139.159.134.189_8848] [subscribe] common_mybaitsplus.yml+COMMON_GROUP
+2022-04-19 14:37:20.279 [32mINFO [m [main] [32mcom.ali.n.c.c.i.CacheData.addListener(93)[m: [fixed-139.159.134.189_8848] [add-listener] ok, tenant=, dataId=common_mybaitsplus.yml, group=COMMON_GROUP, cnt=1
+2022-04-19 14:37:20.279 [32mINFO [m [main] [32mcom.ali.n.c.c.i.ClientWorker.addCacheDataIfAbsent(239)[m: [fixed-139.159.134.189_8848] [subscribe] lowcode+DEFAULT_GROUP
+2022-04-19 14:37:20.279 [32mINFO [m [main] [32mcom.ali.n.c.c.i.CacheData.addListener(93)[m: [fixed-139.159.134.189_8848] [add-listener] ok, tenant=, dataId=lowcode, group=DEFAULT_GROUP, cnt=1
+2022-04-19 14:37:54.991 [33mWARN [m [Thread-16] [33mcom.ali.n.c.n.NotifyCenter.shutdown(145)[m: [NotifyCenter] Start destroying Publisher
+2022-04-19 14:37:54.992 [33mWARN [m [Thread-16] [33mcom.ali.n.c.n.NotifyCenter.shutdown(162)[m: [NotifyCenter] Destruction of the end
+2022-04-19 14:37:54.991 [33mWARN [m [Thread-1] [33mcom.ali.n.c.h.HttpClientBeanHolder.shutdown(108)[m: [HttpClientBeanHolder] Start destroying common HttpClient
+2022-04-19 14:37:54.992 [33mWARN [m [Thread-1] [33mcom.ali.n.c.h.HttpClientBeanHolder.shutdown(114)[m: [HttpClientBeanHolder] Destruction of the end
+2022-04-19 14:37:54.995 [32mINFO [m [SpringContextShutdownHook] [32mcom.ali.n.c.naming.shutdown(147)[m: com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+2022-04-19 14:37:54.995 [32mINFO [m [SpringContextShutdownHook] [32mcom.ali.n.c.naming.shutdown(149)[m: com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
+2022-04-19 14:37:54.995 [32mINFO [m [SpringContextShutdownHook] [32mcom.ali.n.c.naming.shutdown(409)[m: com.alibaba.nacos.client.naming.core.HostReactor do shutdown begin
+2022-04-19 14:37:55.212 [32mINFO [m [SpringContextShutdownHook] [32mcom.ali.n.c.naming.shutdown(121)[m: com.alibaba.nacos.client.naming.core.PushReceiver do shutdown begin
+2022-04-19 14:37:58.216 [32mINFO [m [SpringContextShutdownHook] [32mcom.ali.n.c.naming.shutdown(125)[m: com.alibaba.nacos.client.naming.core.PushReceiver do shutdown stop
+2022-04-19 14:37:58.217 [32mINFO [m [SpringContextShutdownHook] [32mcom.ali.n.c.naming.shutdown(132)[m: com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2022-04-19 14:37:58.217 [32mINFO [m [SpringContextShutdownHook] [32mcom.ali.n.c.naming.shutdown(134)[m: com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2022-04-19 14:37:58.217 [32mINFO [m [SpringContextShutdownHook] [32mcom.ali.n.c.naming.shutdown(414)[m: com.alibaba.nacos.client.naming.core.HostReactor do shutdown stop
+2022-04-19 14:37:58.217 [32mINFO [m [SpringContextShutdownHook] [32mcom.ali.n.c.naming.shutdown(719)[m: com.alibaba.nacos.client.naming.net.NamingProxy do shutdown begin
+2022-04-19 14:37:58.218 [33mWARN [m [SpringContextShutdownHook] [33mcom.ali.n.c.naming.shutdown(72)[m: [NamingHttpClientManager] Start destroying NacosRestTemplate
+2022-04-19 14:37:58.218 [33mWARN [m [SpringContextShutdownHook] [33mcom.ali.n.c.naming.shutdown(79)[m: [NamingHttpClientManager] Destruction of the end
+2022-04-19 14:37:58.219 [32mINFO [m [SpringContextShutdownHook] [32mcom.ali.n.c.i.CredentialWatcher.stop(105)[m: [null] CredentialWatcher is stopped
+2022-04-19 14:37:58.219 [32mINFO [m [SpringContextShutdownHook] [32mcom.ali.n.c.i.CredentialService.free(98)[m: [null] CredentialService is freed
+2022-04-19 14:37:58.219 [32mINFO [m [SpringContextShutdownHook] [32mcom.ali.n.c.naming.shutdown(723)[m: com.alibaba.nacos.client.naming.net.NamingProxy do shutdown stop
+2022-04-19 14:37:58.224 [32mINFO [m [SpringContextShutdownHook] [32mcom.ali.d.p.DruidDataSource.close(2071)[m: {dataSource-1} closing ...
+2022-04-19 14:37:58.227 [32mINFO [m [SpringContextShutdownHook] [32mcom.ali.d.p.DruidDataSource.close(2144)[m: {dataSource-1} closed

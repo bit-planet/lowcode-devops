@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/support/pom.xml" />
+        <option value="$PROJECT_DIR$/devops-lowcode/pom.xml" />
+        <option value="$PROJECT_DIR$/devops-basic/devops-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/devops-basic/devops-sentinel-dashboard/pom.xml" />
+        <option value="$PROJECT_DIR$/devops-basic/devops-uaa/pom.xml" />
+        <option value="$PROJECT_DIR$/devops-lowcode/devops-lowcode-service/pom.xml" />
+        <option value="$PROJECT_DIR$/devops-lowcode/devops-lowcode-api/pom.xml" />
+        <option value="$PROJECT_DIR$/devops-basic/devops-uaa/devops-uaa-api/pom.xml" />
+        <option value="$PROJECT_DIR$/devops-basic/devops-uaa/devops-uaa-service/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="liberica-11" project-jdk-type="JavaSDK" />
+</project>

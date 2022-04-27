@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/devops-basic/devops-gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/devops-basic/devops-gateway/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/devops-basic/devops-sentinel-dashboard/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/devops-basic/devops-sentinel-dashboard/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/devops-basic/devops-sentinel-dashboard/src/main/webapp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/devops-basic/devops-uaa/devops-uaa-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/devops-basic/devops-uaa/devops-uaa-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/devops-lowcode/devops-lowcode-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/devops-lowcode/devops-lowcode-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/devops-lowcode/devops-lowcode-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/support/support-core/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/support/support-core/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/support/support-datasource/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/support/support-datasource/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/support/support-extentions-seata-datasource/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/support/support-extentions-seata-datasource/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/support/support-mybatisplus/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/support/support-mybatisplus/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/support/support-swagger/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/support/support-swagger/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/support/support-swagger/support-swagger-anno/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/support/support-swagger/support-swagger-processor/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/support/support-webmvc/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/support/support-webmvc/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

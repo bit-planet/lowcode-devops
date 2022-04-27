@@ -1,0 +1,40 @@
+server:
+  port: 9000
+  servlet:
+    context-path: /${spring.application.name}
+spring:
+  application:
+    name: lowcode
+  main:
+    allow-circular-references: true
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 139.159.134.189:8848
+      config:
+        server-addr: ${spring.cloud.nacos.discovery.server-addr}
+        shared-configs:
+          - data-id: common_spring.yml
+            group: COMMON_GROUP
+            refresh: true
+          - data-id: common_jdbc_postgres.yml
+            group: COMMON_GROUP
+            refresh: true
+          - data-id: common_mybaitsplus.yml
+            group: COMMON_GROUP
+            refresh: true
+          - data-id: common_sentinel.yml
+            group: COMMON_GROUP
+            refresh: true
+          - data-id: common_seata.yml
+            group: COMMON_GROUP
+            refresh: true
+
+
+# 自定义配置统一
+#custom:
+#  seata:
+#    db:
+#      url: jdbc:postgresql://139.159.134.189:5432/tansun
+#      username: postgres
+#      password:

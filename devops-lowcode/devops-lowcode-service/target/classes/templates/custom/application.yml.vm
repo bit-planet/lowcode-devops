@@ -1,0 +1,14 @@
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+logging:
+  config: classpath:log4j2-spring.xml
+  level:
+    cn.jay.repository: trace
+
+# FIXME 暂时性解决nacos上配置未生效问题！！！
+spring:
+  main:
+    allow-bean-definition-overriding: true
+    allow-circular-references: true

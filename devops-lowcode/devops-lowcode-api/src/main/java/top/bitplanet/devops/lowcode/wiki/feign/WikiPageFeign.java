@@ -1,0 +1,64 @@
+package top.bitplanet.devops.lowcode.wiki.feign;
+
+import top.bitplanet.devops.support.core.framework.page.TYPageQuery;
+import top.bitplanet.devops.support.core.framework.page.TYPageResp;
+import top.bitplanet.devops.support.core.helper.R;
+import top.bitplanet.devops.lowcode.wiki.dto.WikiPageResp;
+import top.bitplanet.devops.lowcode.wiki.dto.query.WikiPageQuery;
+import org.springframework.cloud.openfeign.FeignClient;
+import javax.validation.Valid;
+import org.springframework.web.bind.annotation.*;
+
+/**
+ * <p>
+ * wiki知识库page页 feign 对象
+ * </p>
+ *
+ * @author Le
+ * @since 2022-02-22
+ */
+@FeignClient(contextId = "lowcodeWikiPageFeign",name = "lowcode",path = "/wiki/wikiPage")
+public interface WikiPageFeign {
+
+    /**
+    * 新增 wiki知识库page页
+    * @param query
+    * @return
+    */
+    @PostMapping("")
+    public R<String> add(@RequestBody @Valid WikiPageQuery query);
+
+    /**
+     * 根据 id 删除 wiki知识库page页
+     * @param id
+     * @return
+     */
+    @DeleteMapping("/{id}")
+    public R<Long> delete(@PathVariable("id") Long id);
+
+    /**
+     * 根据id 修改 wiki知识库page页
+     * @param id
+     * @param query
+     * @return
+     */
+    @PutMapping("/{id}")
+    public R<String> update(@PathVariable("id") Long id, @RequestBody WikiPageQuery query);
+
+    /**
+     * 根据id 查询wiki知识库page页详情
+     * @param id
+     * @return
+     */
+    @GetMapping("/{id}")
+    public R<WikiPageResp> detail(@PathVariable("id") Long id);
+
+    /**
+     * 通用分页查询
+     * @param tyPageQuery
+     * @return
+     */
+    @GetMapping("/page")
+    public R<TYPageResp<WikiPageResp>> page(TYPageQuery<WikiPageQuery> tyPageQuery);
+
+}

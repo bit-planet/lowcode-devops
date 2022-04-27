@@ -1,0 +1,4 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  top.bitplanet.devops.support.webmvc.GlobalExceptionHandler,\
+  top.bitplanet.devops.support.webmvc.TyDefaultMicroServiceConfiguration,\
+  top.bitplanet.devops.support.webmvc.MyWebMvcConfigurer
